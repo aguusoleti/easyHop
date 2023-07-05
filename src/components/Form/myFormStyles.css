@@ -1,0 +1,43 @@
+.general{
+    border: solid  2px ;
+    border-radius: 8px;
+    border-color: black;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+
+}
+.containerDesktop{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 300px;
+}
+.general label{
+    color: white
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+}
+.form input{
+    width: 97%;
+    margin-top: 5px;
+}
+
+.containerMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+   
+}
+.containerMobile .general{
+    width: 280px;
+}
+.containerMobile h1{
+    width: 100px;
+}

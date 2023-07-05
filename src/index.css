@@ -1,0 +1,66 @@
+body {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(65,70,143);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  color: rgb(243,106,36);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  height: 20px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+input[type='text']{
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+}
+input:focus {
+  outline: none;
+}
+select{
+  margin-left: 10px;
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 20px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-color: rgba(0, 0, 0, 0);
+}
+select:focus {
+  outline: none;
+}
+option{
+  background-color: rgb(113,117,172);
+}
+button{
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  height: 26px;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+button:enabled{
+  cursor: pointer;
+  color: black;
+}
