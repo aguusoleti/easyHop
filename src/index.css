@@ -44,12 +44,14 @@ select{
   height: 20px;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.253);
-  border-color: rgba(0, 0, 0, 0);
+  color: white;
+
 }
 select:focus {
   outline: none;
 }
 option{
+  color: white;
   background-color: rgb(113,117,172);
 }
 button{
