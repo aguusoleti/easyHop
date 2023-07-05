@@ -66,3 +66,8 @@ button:enabled{
   cursor: pointer;
   color: black;
 }
+button:disabled{
+  color: white;
+  background-color: rgb(113,117,172);
+
+}
